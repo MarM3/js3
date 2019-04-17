@@ -5,10 +5,10 @@ function Persona(nombre, apellidos, edad){
     this.edad = edad;
 
     this.muestraNombreCompleto = function(){
-        this.res.innerHTML += ("Nombre y apellidos: " + this.nombre + ' ' + this.apellidos + "<br>")
+        this.res.innerHTML ="Nombre y apellidos: " + this.nombre + ' ' + this.apellidos + "<br>";
     };
     this.muestraEdad = function(){
-        this.res.innerHTML +=("Edad es: "+this.edad+ "<br>");
+        this.res.innerHTML +="Edad es: "+this.edad+ "<br>";
     };
 }
 
